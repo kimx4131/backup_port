@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/************************** HEADER ***********************/
+
+.toggle {
+	display: inline-block;
+}
+
+.menu {
+	width: 100%;
+	display: none;
+	overflow: hidden;
+}
+
+.menu li {
+	display: block;
+	text-align: center;
+	float: none;
+	background-color: white;
+	outline: 1px solid lightgray;
+}
+
+.active{
+	display: block;
+}
+
+
+.menu li.dropdown {
+	display: block;
+}
+
+
+.dropdown-content {
+	background-color: #EFEFEF;
+	width: 100%;
+	outline: 1px solid lightgray;
+	position: static;
+}
+
+.dropdown-content a {
+	outline: 1px solid lightgray;
+	font-style: italic;
+	
+}	
+
+.menu li a:hover, .dropdown:hover .dropdown-bottum{
+	background-color: lightblue;
+	width: 100%;
+}
+
+
+#navbar {
+	top: 0;
+  	transition: none;
+}
+
+.burger {
+	width: 15%;
+	height: auto;
+	float: right;
+}
+
+
+
+
+
+
+p .text {
+	display: none;
+}
+
+/************************** COVER ***********************/
+
+.cover {
+	margin-top: 60px;
+}
