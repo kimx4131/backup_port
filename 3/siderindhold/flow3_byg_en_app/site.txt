@@ -1,0 +1,56 @@
+original mobil:
+https://xd.adobe.com/view/2314c0da-d59c-478d-4b94-3dc53dcc854b-5525/?fullscreen
+
+orignal tablet:
+https://xd.adobe.com/view/f196a0fc-da84-4ed5-4f0f-8060915f16e9-87a7/?fullscreen
+
+
+
+Flow projekt – byg en app [15 sp]
+
+Produkt
+
+I projektet for dette flow, vil du designe og skabe en prototype på en mobil app. Du vælger selv den type enhed/smartphone og tablet du udvikler til, såvel som operativsystem.
+
+Appen skal være en løsning til en af de tre nedenstående problemstillinger. Du vil bruge Adobe XD til demonstrere skærmene i appen og deres flow samt bruge Adobe Illustrator til grafik til interfacet og Adobe Photoshop til billeder.
+
+Vælg ét af følgende temaer til projekt:
+
+• Vejr app
+
+• Boligsøgnings app,
+
+• Sportstracking app
+
+Opgaven må udvikles i samarbejde med andre fx ved fælles ideudvikling og dataindsamling samt udvikling af grafik og billeder. Men den endelige prototype aflevering skal være unik og individuel.
+
+Appen skal udvikles til både mobil og tablet og der skal være indhold i mindst 3 menupunkter og mindst 3 niveauer. Indhold skal være tilstrækkeligt til at brugertest kan gennemføres men generisk indhold og prosatekst kan være placeholder.
+
+Der skal udvikles forslag til interface elementer herunder ikoner til appen, alle tegnet i Adobe Illustrator.
+
+I skal teste, om brugerne forstår jeres design. I skal undersøge, hvordan I bedst organiserer indholdet i appen, ved hjælp af testmetoden kortsortering, samt om brugerne forstår hvordan appen fungerer, ved at gennemføre tænke-højt tests på den potentielle målgruppe.
+
+Rapport
+
+Aflever 1 PDF-fil med det fulde navn.
+
+Indhold max. 3 sider* tekst og max. 10 MB
+
+Angiv link til din XD prototype på forsiden.
+
+3* sider betyder 3 ”normalsider” og er et mål for mængden af tekstindhold = 2.400 anslag (incl mellemrum pr. side) og betyder at pdf-filen gerne må indeholde fx 8 sider/ark i alt.
+
+Rapporten skal beskrive din prototype og visuelt dokumentere udviklingen, som fx en visuel logbog med  kommenterede billeder/screendumps. Vi forventer som minimum:
+Kort beskrivelse af målgruppen (via 2 "personaer")
+App flowchart (fx tegnet i Illustrator)
+Dokumenter udvikling af screen mobile phone og tablet layout
+Dokumenter udvikling af app ikon design
+Kort opsummering af resultater af test (kortsortering + tænke-højt test)
+
+Projektet giver i alt 15 study points, som er fordelt på:
+5 points for aflevering af PDF fil
+5 point for aflevering af app prototype i Adobe XD
+5 points for deltagelse i præsentationsdag
+Flowet afsluttes med en fælles præsentationsdag, hvor vi vurderer og diskuterer løsninger i plenum. Du vil desuden få en kort skriftlig kommentar på Moodle. Har du brug for yderligere feedback, kommentarer eller forslag til din portfolio, kan du kontakte underviserne efterfølgende. 
+
+DEADLINE: 1. nov., kl. 18:00.
