@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: aglet-slab, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+}
+
+
+/* * * * * * * * * * * * * * * * *header* * * * * * * * * * * * * * * * */
+.logo{
+	/*position: fixed;*/
+	width: 90px;
+	float: left;
+	}
+
+h1{
+	text-align: center;
+	font-family: aglet-slab, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+}
+
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	}
+
+.menu li {
+    display: inline;
+    float: right;
+	}
+
+.menu li a{
+    display: block;
+	color: black;
+    text-align: center;
+    padding: 5px 0 0px 40px;
+    text-decoration: none;
+	font-family: aglet-slab, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+
+.menu .active {
+   	text-decoration: underline;
+	}
+
+.menu a:hover{
+	text-decoration: underline;
+}
+
+.menu .underm {
+	front-size: 15px;
+	color:darkgray;	
+}
+
+/* * * * * * * * * * * * * * * * *header slut* * * * * * * * * * * * * * * * */
+
+
+
+/* * * * * * * * * * * * * * * * *oversigtsside* * * * * * * * * * * * * * * * */
+figure{
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+.oversigt{
+	width: 100%;
+	}
+
+.afstand{
+	padding-top: 30px;
+}
+
+
+/* * * * * * * * * * * * * * * * *oversigtsside slut* * * * * * * * * * * * * * * * */
+
+
+
+/* * * * * * * * * * * * * * * * *kontakt side * * * * * * * * * * * * * * * * */
+.kontakt{
+	position: relative;
+	float: right;
+	width: 49%;
+	margin-top: 7px;
+}
+
+input {
+	border-radius: 2px;
+	border: 1px solid darkgray;
+	margin-bottom: 10px;
+}
+
+
+input, textarea {
+	width:100%;
+	padding:10px;
+	border-radius: 2px;
+}
+
+.btn_submit {
+	width:25%;
+	margin-left:40%;
+}
+
+textarea {
+	resize:none;
+	height:260px;
+}
+
+form{
+	/* float: left; */
+	width: 97%;
+	position: relative;
+}
+
+
+/* * * * * * * * * * * * * * * * *kontakt side slut* * * * * * * * * * * * * * * * */
+
+
+
+#wrapper {
+	width:80%;
+	margin:20px auto;
+}
+
+
+/* * * * * * * * * * * * * * * * *billedeoversigt* * * * * * * * * * * * * * * * */
+
+.str{
+	width: 100%;
+	margin-bottom: 4%;
+}
+
+.left{
+	float: left;
+	width: 49%;
+}
+
+.right{
+	float: right;
+	width: 49%;
+}
+/* * * * * * * * * * * * * * * * *billedoversigt slut* * * * * * * * * * * * * * * * */
+
+
+
+/* * * * * * * * * * * * * * * * *projektsider* * * * * * * * * * * * * * * * */
+h2, h3, h4{
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+h3{
+	margin-top: 50px;
+}
+
+.b-uden-makker{
+	display: block;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.punkter{
+	margin-top: 0;
+}
+
+.coverbillede{
+	width: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+.billedstr{
+	width: 24%;
+}
+
+.tekst{
+	width: 95%;
+	font-size: 1.07em;
+	line-height: 120%;
+}
+
+/* * * * * * * * * * * * * * * * *projektsider slut* * * * * * * * * * * * * * * * */
+
+
+
+/* * * * * * * * * * * * * * * * *Footer* * * * * * * * * * * * * * * * */
+
+footer{
+	clear: both;
+	position: bottom;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: wheat;
+	text-align: center;
+}
+
+.medier{
+	position:inherit;
+	bottom: 2%;
+	text-align: center; 
+}
+
+.social{
+	width: 1.5%;
+	opacity: 0.7;
+	padding: 5px;
+	
+}
+
+/* * * * * * * * * * * * * * * * *Footer slut* * * * * * * * * * * * * * * * */
+

@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logoforside{
+	position: absolute;
+	width: 25%;
+	
+}
+
+.baggrund{
+	width: 80%;
+	position: fixed;
+	z-index: -2;
+	right: 5%;
+	top: 5%;
+}
+
+.firstmenu{
+	padding-top:18%;
+}
+
+.menu{
+	padding-top:3%;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+h2{
+	font-family: aglet-slab, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 33px;
+}
+
+div{
+	/*position: relative;*/
+	margin-left: 45px;
+}
+
+
+
