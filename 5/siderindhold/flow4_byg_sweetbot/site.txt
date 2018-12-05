@@ -1,0 +1,33 @@
+Flow projekt - sweetbot.design [15 study points]
+
+Det lille fiktive webbureau Sweetbot har brug for jeres hjælp. Virksomheden har specialiseret sig indenfor følgende områder:
+
+Webudvikling
+Digital security
+Branding
+Sweetbot er internationalt orienteret og består af 4 medarbejdere samt 2 CEOs. Sweetbot ønsker at implementere en dansk udgave af deres website. Websitet skal være optimeret til mobile enheder og Sweetbot ønsker desuden, at der skal indgå jQuery elementer i løsningen.
+
+Udover den tekniske løsning, bliver I også bedt om at give et bud på visuelle elementer samt informationarkitektur til sitet. Sweetbot har en style guide som skal følges (se vedhæftede fil) samt et logo som skal implementeres (se vedhæftede .eps fil).
+
+Sweetbot har netop udviklet deres egen e-commerce løsning under navnet HotBot, men mangler et logo samt ikoner til løsningen. Dette skal I også udvikle og demonstrere i den online website løsning. Logoet skal desuden tilføjes den aktuelle styleguide.
+
+Sidst men ikke mindst skal I foretage en brugertest af sitet.
+
+Flowet afsluttes med en fælles præsentationsdag, hvor vi vurderer og diskuterer jeres løsning i plenum.
+
+Gruppestørrelsen skal være på 3-4 stud.
+
+Aflevering (senest den 23. november, kl. 08.00):
+
+1 PDF fil (filnavn:MUL[A/B]-[Gruppe-nr]-sweetbot.pdf - eksempel: MULA-01-sweetbot.pdf) med
+
+Navne + Cphbusiness-mails
+Link til gruppens online løsning
+Link til gruppens GitHub repository
+Kort redegørelse for gruppens GitHub strategi
+Kort beskrivelse af de gennemførte brugertests
+Projektet giver i alt 15 study points som er fordelt på følgende:
+
+5 study points for aflevering af link til websitet
+10 study points for præsentationen @ præsentationsdag
+God arbejdslyst - og happy coding!
