@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	font-size: 1.8rem;
+}
+
+h2 {
+	font-size: 1.6rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+}
+
+h4 {
+	font-size: 1.1rem;
+}
+
+p {
+	font-size: 0.9rem;
+}
+ul, ol {
+	line-height: 25px;
+	font-size: 0.9rem;
+}
+
+/************************** HEADER ***********************/
+
+.logo{
+	height: 90%;
+}
+
+.toggle {
+	display: inline-block;
+	font-size: 27px;
+}
+
+.menu {
+	width: 92%;
+	display: none;
+	overflow: hidden;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.menu li {
+	display: block;
+	text-align: center;
+	float: none;
+	background-color: white;
+	outline: 1px solid rgba(210,210,210,1.0);
+}
+
+.active{
+	display: block;
+}
+
+.menu a, .dropdown-bottum {
+	padding: 7px;
+}
+
+.menu li.dropdown {
+	display: block;
+}
+
+
+.dropdown-content {
+	width: 100%;
+	outline: 1px solid rgba(210,210,210,1.0);
+	position: static;
+}
+
+.dropdown-content a {
+	outline: 1px solid rgba(210,210,210,1.0);
+	font-style: italic;
+	font-size: 0.72rem;
+	
+}	
+
+.menu li a:hover, .dropdown:hover .dropdown-bottum{
+	background-color: rgba(210,210,210,1.0);
+	width: 100%;
+}
+
+
+#navbar {
+	top: 0;
+  	transition: none;
+}
+
+.burger {
+	width: 15%;
+	height: auto;
+	float: right;
+	margin-right: 10px;
+}
+
+p .text {
+	display: none;
+}
+
+a.hererdu, a.hererdu_drop{
+	background-color: rgba(210,210,210,0.20);
+	width: 100%;
+}
+
+
+
+
+/************************** COVER ***********************/
+
+.cover {
+	margin-top: 60px;
+}
+
+
+/************************** FORSIDE ***********************/
+.baggrund{
+	text-align: center;
+	margin-top:-2px;
+	margin-right: -2px;
+	border-radius: 0 0 6px 6px;
+	border: 1px solid lightgray;
+	border-top: none;
+}
+
+.boks{
+	border: 1px solid lightgray;
+	border-radius: 6px 6px 0 0;
+	border-bottom: none;
+}
+
+/************************** OPGAVSIDERNE ***********************/
+#myBtn, #myBtn2, #myBtn3 {
+	padding: 10px;
+}
+
+.sitemap{
+	width: 50%;
+	margin-right: auto;
+	margin-left: 20%;
+}
+
+.fed{
+	margin-bottom: -10px;
+}
+
+/************************** LARING ***********************/
+
+.adobeikon {
+	width: 30%;
+	height: auto;
+}
+
+
+/************************** BILLEDSIDER ***********************/
+.modal-content {
+	max-width: 960px;
+}
+
+.billed_staende2{
+	width: 90%;
+	margin-left: 5.5%;
+}
+
+.prev, .next {
+	padding: 7px;
+	background-color: rgba(0, 0, 0, 0.8);
+	opacity: 0.8;
+} 
+
+
+/************************** KONTAKT ***********************/
+.buttom-submit {
+	width: 30%;
+	padding: 15px;
+	margin-top: 20px;
+}
+
+
+/************************** FOOTER ***********************/
+.socialemedie_mobil{
+	width: 93%;
+	height: auto;
+}
+
+.mobil_midt{
+	margin-right: auto;
+	margin-left: 30%;
+}
+
+
+
+
+
+
