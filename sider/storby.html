@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<title>Storby</title>
+	<!-- HENTEDE STYLESHEETS -->
+	<link rel="stylesheet" type="text/css" href="../style/cssreset.css">
+	<link rel="stylesheet" type="text/css" href="../style/simplegrid.css">
+	
+	<!-- MINE STYLESHEETS-->
+	<link rel="stylesheet" type="text/css" href="../style/standard.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 960px)" href="../style/tablet.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	
+<div class="grid grid-pad">
+	
+	
+<!-- HEADER -->	
+  <div class="col-1-1 mobile-col-1-1">
+		<div class="content">	
+			<nav id="navbar_ikkeforside">
+				<a href="../index.html"><img src="../forside_billeder/logo.png" alt="logo" class="logo"/></a>
+
+			  <div class="toggle">
+			    <img src="../forside_billeder/bar.png" class="burger" aria-hidden="true" alt="burgermenu"/>
+			  </div>
+
+			  <ul class="menu">
+				<li><a href="../index.html#kontakt">Kontakt</a></li>
+
+				<li class="dropdown"><a href="javascript:void(0)" class="dropdown-bottum hererdu">Billeder</a>
+				  <div class="dropdown-content">
+					<a href="natur.html">Natur</a>
+					<a href="storby.html" class="hererdu_drop">Storby</a>
+					</div>
+				  </li>
+
+				<li class="dropdown"><a href="javascript:void(0)" class="dropdown-bottum">Projekter</a>
+				  <div class="dropdown-content">
+					<a href="canvas.html">Canvas brodering</a>
+					<a href="myhomeevent.html">My Home Event</a>
+					</div>
+				  </li>
+				  
+				  <li class="dropdown"><a href="javascript:void(0)" class="dropdown-bottum">Opgaver</a>
+				  <div class="dropdown-content">
+					<a href="dromditportfolio.html">Drøm dit portfolio</a>
+					<a href="bygditportfolio.html">Byg dit portfolio</a>
+					<a href="bygenapp.html">Byg en app</a>
+					<a href="bygsweebot.html">Byg Sweetbot</a>
+					<a href="eksamensprojekt.html">Eksamensprojekt</a>
+				  </div>
+				  </li>
+			
+				 <li><a href="laring.html">Læring</a></li>
+		
+				</ul>
+            </nav>
+	
+			
+		</div>
+	</div>
+	
+<!-- SIDEN -->
+	<h1>Storby</h1>
+	<div class="col-1-2 mobile-col-1-2"> <!-- VENSTRE SIDE -->
+		<img src="../siderindhold/storby/sidegade-rom.jpg" alt="billede af sidegade i rom" onclick="openModal();currentSlide(1)" class="billed_side">
+		<img src="../siderindhold/storby/hængelase.jpg" alt="billede af hængelåse i Paris" onclick="openModal();currentSlide(2)" class="billed_side">
+	</div>
+	<div class="col-1-2 mobile-col-1-2"><!-- HØJRE SIDE -->
+		<img src="../siderindhold/storby/vejskilt.jpg" alt="billede af vejskilt" onclick="openModal();currentSlide(3)" class="billed_side">
+		<img src="../siderindhold/storby/venedig-sejler.jpg" alt="billede af en gondol i venedig" onclick="openModal();currentSlide(4)" class="billed_side">		
+	</div>
+	
+<!-- BILLEDE VISNING I STORT FORMAT -->
+	<div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+			<div class="mySlides">
+				<img src="../siderindhold/storby/sidegade-rom.jpg" alt="Billede af sidegade i rom" class="billed_staende2">
+			</div>
+
+			<div class="mySlides">
+				<img src="../siderindhold/storby/vejskilt.jpg" alt="billede af vejskilt" class="billed_liggende">
+			</div>
+
+			<div class="mySlides">
+				<img src="../siderindhold/storby/hængelase.jpg" alt="billede af hængelåse i Paris" class="billed_liggende">
+			</div>
+
+			<div class="mySlides">
+				<img src="../siderindhold/storby/venedig-sejler.jpg" alt="billede af en gondol i venedig" class="billed_staende2">
+			</div>
+
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+	</div>
+	
+		
+	
+<!-- FOOTER -->	
+  <div class="col-1-1 stylefooter hide-on-mobile">
+		<div class="col-11-12">
+			<div class="content">
+				<p class="tekstfooter">Kragesand© alle rettigheder er forbeholdt - Email: kimkragesand@hotmail.com</p>
+			</div>
+		</div>	
+
+		<div class="col-1-12">
+			<div class="content right">
+				<a href="https://www.instagram.com/kimkragesand/" target="_blank"><img src="../forside_billeder/instragram.png" alt="Instagram logo" class="socialemedie"/></a>
+				<a href="https://www.linkedin.com/in/kim-kragesand-bohn-549988131/" target="_blank"><img src="../forside_billeder/linkin.png" alt="Linkin logo" class="socialemedie"/></a>
+			</div>
+		</div>	
+	</div>
+	
+	<!--MOBIL-->	
+	<div class="mobile-col-1-1 hideondesktop mobil_midt">
+    	<div class="content">
+			<h3>Følg mig her</h3>
+    	</div>
+	</div>
+	<div class="mobile-1-1 mobil_midt">
+		<div class="mobile-col-1-4 hideondesktop">
+			<div class="content">
+				<a href="https://www.instagram.com/kimkragesand/" target="_blank"><img src="../forside_billeder/instragram.png" alt="Instagram logo" class="socialemedie_mobil"/></a>
+			</div>
+		</div>
+		
+		<div class="mobile-col-1-4 hideondesktop">
+			<div class="content">
+				<a href="https://www.linkedin.com/in/kim-kragesand-bohn-549988131/" target="_blank"><img src="../forside_billeder/linkin.png" alt="Linkin logo" class="socialemedie_mobil"/></a>
+			</div>
+		</div>
+	</div>
+
+</div> <!-- grid er slut -->
+	
+
+<!-- SCRIPT -->
+	
+	<!-- BURGER MENUEN -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(document).ready(function(){
+			
+			$('.burger').click(function(){
+				$('ul').toggleClass('active');
+			})
+	
+		});
+		
+	</script>
+	
+	<!-- BILLEDER VISES I FYLD STØRRELSE -->
+	<script>
+		function openModal() {
+		  document.getElementById('myModal').style.display = "block";
+		}
+
+		function closeModal() {
+		  document.getElementById('myModal').style.display = "none";
+		}
+
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  if (n > slides.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			  slides[i].style.display = "none";
+		  }
+			slides[slideIndex-1].style.display = "block";
+		}
+	</script>
+
+	
+	
+</body>
+</html>
+
+
+
+	
+
