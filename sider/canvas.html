@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Canvas Brodering</title>
+<link rel="chortcut icon" type="image/png" href="../forside_billeder/logo.png">
 	<!-- HENTEDE STYLESHEETS -->
 	<link rel="stylesheet" type="text/css" href="../style/cssreset.css">
 	<link rel="stylesheet" type="text/css" href="../style/simplegrid.css">
@@ -85,13 +86,54 @@
 	</div></div>
 	
 	<div class="col-1-1"><div class="content"><h2>Værker</h2></div></div>
-	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/eiffel.jpg" alt="Eiffeltårnet" class="tilpasbilled"></div>
-	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/notredame.jpg" alt="Notredame" class="tilpasbilled"></div>
-	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/louvre.jpg" alt="Louvre" class="tilpasbilled"></div>
-	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/triumf.jpg" alt="Triumfbuen" class="tilpasbilled"></div>
-	<div class="col-1-1">
-	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/fjernsyn.jpg" alt="Fjernsynstårnet" class="tilpasbilled"></div>
-	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/bigben.jpg" alt="Big Ben" class="tilpasbilled"></div>
+	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/eiffel.jpg" alt="Eiffeltårnet" onclick="openModal();currentSlide(1)" class="tilpasbilled"></div>
+	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/notredame.jpg" alt="Notredame" onclick="openModal();currentSlide(2)" class="tilpasbilled"></div>
+	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/louvre.jpg" alt="Louvre" onclick="openModal();currentSlide(3)" class="tilpasbilled"></div>
+	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/triumf.jpg" alt="Triumfbuen" onclick="openModal();currentSlide(4)" class="tilpasbilled"></div>
+	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/fjernsyn.jpg" alt="Fjernsynstårnet" onclick="openModal();currentSlide(5)" class="tilpasbilled"></div>
+	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/coittowet.jpg" alt="Coit tower" onclick="openModal();currentSlide(6)" class="tilpasbilled"></div>
+	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/bigben.jpg" alt="Big Ben" onclick="openModal();currentSlide(7)" class="tilpasbilled"></div>
+	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/towerbridge.jpg" alt="Tower bridge" onclick="openModal();currentSlide(8)" class="tilpasbilled"></div>
+	
+	<div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+			<div class="mySlides">
+				<img src="../siderindhold/canvas/eiffel.jpg" alt="Eiffeltårnet" class="billed_firkant">
+			</div>
+				
+			<div class="mySlides">
+				<img src="../siderindhold/canvas/notredame.jpg" alt="Notredame" class="billed_firkant">
+			</div>	
+				
+			<div class="mySlides">
+				<img src="../siderindhold/canvas/louvre.jpg" alt="Louvre" class="billed_firkant">
+			</div>	
+				
+			<div class="mySlides">
+				<img src="../siderindhold/canvas/triumf.jpg" alt="Triumfbuen" class="billed_firkant">
+			</div>	
+				
+			<div class="mySlides">
+				<img src="../siderindhold/canvas/fjernsyn.jpg" alt="Fjernsynstårnet" class="billed_firkant">
+			</div>		
+				
+			<div class="mySlides">
+				<img src="../siderindhold/canvas/coittowet.jpg" alt="Coit tower" class="billed_firkant">
+			</div>	
+			
+			<div class="mySlides">
+				<img src="../siderindhold/canvas/bigben.jpg" alt="Big Ben" class="billed_firkant">
+			</div>
+								
+			<div class="mySlides">
+				<img src="../siderindhold/canvas/towerbridge.jpg" alt="Tower bridge" class="billed_firkant">
+			</div>
+				
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
 	</div>
 	
 <!-- FOOTER -->	
@@ -151,6 +193,38 @@
 		
 	</script>	
 	
+		<!-- BILLEDER VISES I FYLD STØRRELSE -->
+	<script>
+		function openModal() {
+		  document.getElementById('myModal').style.display = "block";
+		}
+
+		function closeModal() {
+		  document.getElementById('myModal').style.display = "none";
+		}
+
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  if (n > slides.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			  slides[i].style.display = "none";
+		  }
+			slides[slideIndex-1].style.display = "block";
+		}
+	</script>
 
 </body>
 </html>

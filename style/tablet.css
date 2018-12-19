@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
+
 h1 {
 	font-size: 1.8rem;
 }
@@ -28,20 +29,26 @@ ul, ol {
 /************************** HEADER ***********************/
 
 .logo{
-	height: 90%;
+	height: 100%;
 }
 
 .toggle {
 	display: inline-block;
 	font-size: 27px;
+	margin-top: 1%;
+	margin-right: 2.5%;
 }
 
+
 .menu {
-	width: 94%;
+	width: 99%;
 	display: none;
 	overflow: hidden;
 	padding-left: 0;
-	margin-left: 0;
+	margin-left: -5px;
+	margin-top: -5px;
+	transform: rotate(180deg);
+	box-shadow: 0px -8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .menu li {
@@ -50,6 +57,7 @@ ul, ol {
 	float: none;
 	background-color: white;
 	outline: 1px solid rgba(210,210,210,1.0);
+	transform: rotate(-180deg);
 }
 
 .active{
@@ -67,12 +75,13 @@ ul, ol {
 
 .dropdown-content {
 	width: 100%;
-	outline: 1px solid rgba(210,210,210,1.0);
+	outline: 0.5px solid rgba(210,210,210,1.0);
 	position: static;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.13);
 }
 
 .dropdown-content a {
-	outline: 1px solid rgba(210,210,210,1.0);
+	outline: 0.5px solid rgba(210,210,210,1.0);
 	font-style: italic;
 	font-size: 0.72rem;
 	
@@ -84,16 +93,17 @@ ul, ol {
 }
 
 
-#navbar {
+#navbar, #navbar_ikkeforside {
 	top: 0;
   	transition: none;
+	background-color: white;
+	height: 50px;
 }
 
 .burger {
 	width: 15%;
 	height: auto;
 	float: right;
-	margin-right: 10px;
 }
 
 p .text {
@@ -111,7 +121,7 @@ a.hererdu, a.hererdu_drop{
 /************************** COVER ***********************/
 
 .cover {
-	margin-top: 60px;
+	margin-top: 33px;
 }
 
 
@@ -129,6 +139,11 @@ a.hererdu, a.hererdu_drop{
 	border: 1px solid lightgray;
 	border-radius: 6px 6px 0 0;
 	border-bottom: none;
+}
+
+.billeder {
+	-webkit-filter: grayscale(10%);
+	filter:grayscale(10%);
 }
 
 /************************** OPGAVSIDERNE ***********************/
@@ -164,11 +179,24 @@ a.hererdu, a.hererdu_drop{
 	margin-left: 5.5%;
 }
 
+.billed_liggende {
+	margin: 29.3% 0 38%;
+}
+
+.billed_firkant {
+	width: 85%;
+	margin: 20% 0 30% 8.5%;
+}
+
 .prev, .next {
 	padding: 7px;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(210, 210, 210, 0.8);
 	opacity: 0.8;
 } 
+
+.close {
+	margin-right: 0%;
+}
 
 
 /************************** KONTAKT ***********************/
@@ -185,6 +213,10 @@ a.hererdu, a.hererdu_drop{
 	height: auto;
 }
 
+.socialemedie {
+	display: inline-block;
+}
+
 .mobil_midt{
 	margin-right: auto;
 	margin-left: 30%;
@@ -192,6 +224,31 @@ a.hererdu, a.hererdu_drop{
 
 
 
+
+/************************** MOBIL ***********************/
+@media screen and (max-width: 480px){
+	.toggle {
+		margin-top: 4%;	
+		margin-right: 7%;
+	}
+
+	.menu {
+		width: 93.5%;
+	}
+	
+	.cover {
+		margin-top: 25px;
+	}
+	
+	.billed_liggende {
+	margin: 33% 0 35%;
+	}
+	
+	.adobeikon {
+		width: 20%;
+	}
+	
+}/*MEDIA SLUT*/
 
 
 

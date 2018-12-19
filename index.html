@@ -2,7 +2,11 @@
 <html lang="da">
 <head>
 <meta charset="utf-8">
-<title>Forside</title>
+<title>Kim Kragesand</title>
+<link rel="chortcut icon" type="image/png" href="forside_billeder/logo.png">
+<link rel="apple-touch-icon" sizes="144x144" href="forside_billeder/logoapp.jpg"/>
+<link rel="apple-touch-icon" sizes="57x57" href="forside_billeder/logoapp.jpg"/>
+<!--<link rel="apple-touch-icon-precomposed" href="forside_billeder/logo.png" style="background-color:white;"/>-->
 	<!-- HENTEDE STYLESHEETS -->
 	<link rel="stylesheet" type="text/css" href="style/cssreset.css">
 	<link rel="stylesheet" type="text/css" href="style/simplegrid.css">
@@ -60,12 +64,11 @@
 				</ul>
             </nav>
 	
-			
 		</div>
 	</div>
 	
 <!-- COVER -->	
-  	<div class="col-1-1 padcover mobile-col-1-1 hide-on-mobile">
+  	<div class="col-1-1 mobile-col-1-1 hide-on-mobile">
 		<div class="content">
 				<img src="forside_billeder/covernavn.gif" class="cover" alt="Billede med logo" />
 		</div>
@@ -76,7 +79,6 @@
 				<img src="forside_billeder/coverlille.gif" class="cover" alt="Billede af grandkovle som er spist af egeren" />
 		</div>
 	</div>
-	
 	
 	
 <!-- LÆRING -->
@@ -304,13 +306,13 @@
 	
 <!-- FOOTER -->	
   <div class="col-1-1 stylefooter hide-on-mobile">
-		<div class="col-11-12">
+		<div class="col-9-12">
 			<div class="content">
 				<p class="tekstfooter">Kragesand© alle rettigheder er forbeholdt - Email: kimkragesand@hotmail.com</p>
 			</div>
 		</div>	
 
-		<div class="col-1-12">
+		<div class="col-3-12">
 			<div class="content right">
 				<a href="https://www.instagram.com/kimkragesand/" target="_blank"><img src="forside_billeder/instragram.png" alt="Instagram logo" class="socialemedie"/></a>
 				<a href="https://www.linkedin.com/in/kim-kragesand-bohn-549988131/" target="_blank"><img src="forside_billeder/linkin.png" alt="Linkin logo" class="socialemedie"/></a>
@@ -351,18 +353,19 @@
 		window.onscroll = function() {scrollFunction()};
 		
 		function scrollFunction() {
-			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-			document.getElementById("navbar").style.top = "0";
-		  } else {
-			document.getElementById("navbar").style.top = "-60px";
-		  }
+			if ($(window).width() >= 960){	
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("navbar").style.top = "0";
+			  } else {
+				document.getElementById("navbar").style.top = "-60px";
+			  }
+		   } 
 		}
 	}); //ready slut
 	</script>	
 	
 	
 	<!-- BURGER MENUEN -->
-	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 	<script>
 		$(document).ready(function(){
 			

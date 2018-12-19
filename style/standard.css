@@ -139,13 +139,14 @@ li.indryg{
 .logo {
 	height: 100%;
 	width: auto;
+	background-color: white;
 }
 
 #navbar {
-	background-color: white;
+	background-color: rgba(255,255,255,0.98);
 	height: 60px;
-	width: 98%;
-	max-width: 1280px;
+	width: 97%;
+	max-width: 1240px;
 	position: fixed;
 	top: -60px;
 	display: block;
@@ -154,10 +155,10 @@ li.indryg{
 }
 
 #navbar_ikkeforside {
-	background-color: white;
+	background-color: rgba(255,255,255,0.98);
 	height: 60px;
-	width: 98%;
-	max-width: 1280px;
+	width: 97%;
+	max-width: 1240px;
 	position: fixed;
 	display: block;
 	top: 0;
@@ -198,11 +199,6 @@ a.hererdu_drop{
 	height: auto
 }
 
-.padcover {
-	padding: 0;
-	height: auto;
-	margin: 0;
-}
 
 
 /************************** FORSIDE ***********************/
@@ -351,7 +347,15 @@ hr{
 .billed_liggende{
 	width: 100%;
 	height: auto;
+	margin: 2.6% 0 5.2%;
 }
+
+.billed_firkant {
+	width: 76%;
+	height: auto;
+	margin-left: 12%;
+}
+
 
 	/* The Modal (background) */
 	.modal {
@@ -364,7 +368,7 @@ hr{
 	  width: 100%;
 	  height: 100%;
 	  overflow: auto;
-	  background-color: black;
+	  background-color: rgba(255,255,255,0.93);
 	}
 
 	/* Modal Content */
@@ -378,12 +382,13 @@ hr{
 
 	/* The Close Button */
 	.close {
-	  color: white;
+	  color: black;
 	  position: absolute;
 	  top: 10px;
 	  right: 25px;
 	  font-size: 35px;
 	  font-weight: bold;
+	  margin-right: 16%;
 	}
 
 	.close:hover,
@@ -405,11 +410,11 @@ hr{
 	.prev, .next {
 	  cursor: pointer;
 	  position: absolute;
-	  top: 50%;
+	  top: 52.5%;
 	  width: auto;
 	  padding: 16px;
 	  margin-top: -50px;
-	  color: white;
+	  color: black;
 	  font-weight: bold;
 	  font-size: 20px;
 	  transition: 0.6s ease;
@@ -427,12 +432,14 @@ hr{
 	/* On hover, add a black background color with a little bit see-through */
 	.prev:hover,
 	.next:hover {
-	  background-color: rgba(0, 0, 0, 0.8);
+	  background-color: rgba(210, 210, 210, 0.8);
 	}
 
 	.active:hover {
 	  opacity: 1;
 	}
+
+
 
 /************************** KONTAKT ***********************/
 
