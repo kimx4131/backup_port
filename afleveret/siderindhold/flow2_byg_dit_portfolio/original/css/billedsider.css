@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+	text-align: center;
+	font-family: aglet-slab, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	}
+
+li {
+    display: inline;
+    float: right;
+	}
+
+li a {
+    display: block;
+	color: black;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+	font-family: aglet-slab, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	}
+
+.logo{
+	position: absolute;
+	width:7%;
+	}

@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<title>Canvas Brodering</title>
+<link rel="shortcut icon" type="image/png" href="../forside_billeder/logo.png">
+	<!-- HENTEDE STYLESHEETS -->
+	<link rel="stylesheet" type="text/css" href="../style/cssreset.css">
+	<link rel="stylesheet" type="text/css" href="../style/simplegrid.css">
+	
+	<!-- MINE STYLESHEETS-->
+	<link rel="stylesheet" type="text/css" href="../style/standard.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 960px)" href="../style/tablet.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<div class="grid grid-pad">
+<!-- HEADER -->	
+  <div class="col-1-1 mobile-col-1-1">
+		<div class="content">	
+			<nav id="navbar_ikkeforside">
+				<a href="../index.html"><img src="../forside_billeder/logo.png" alt="logo" class="logo"/></a>
+
+			  <div class="toggle">
+			    <img src="../forside_billeder/bar.png" class="burger" aria-hidden="true" alt="burgermenu"/>
+			  </div>
+
+			  <ul class="menu">
+				<li><a href="../index.html#kontakt">Kontakt</a></li>
+
+				<li class="dropdown"><a href="javascript:void(0)" class="dropdown-bottum">Billeder</a>
+				  <div class="dropdown-content">
+					<a href="natur.html">Natur</a>
+					<a href="storby.html">Storby</a>
+					</div>
+				  </li>
+
+				<li class="dropdown"><a href="javascript:void(0)" class="dropdown-bottum hererdu">Projekter</a>
+				  <div class="dropdown-content">
+					<a href="canvas.html" class="hererdu_drop">Canvas brodering</a>
+					<a href="myhomeevent.html">My Home Event</a>
+					</div>
+				  </li>
+				  
+				  <li class="dropdown"><a href="javascript:void(0)" class="dropdown-bottum">Opgaver</a>
+				  <div class="dropdown-content">
+					<a href="dromditportfolio.html">Drøm dit portfolio</a>
+					<a href="bygditportfolio.html">Byg dit portfolio</a>
+					<a href="bygenapp.html">Byg en app</a>
+					<a href="bygsweebot.html">Byg Sweetbot</a>
+					<a href="eksamensprojekt.html">Eksamensprojekt</a>
+				  </div>
+				  </li>
+			
+				 <li><a href="laring.html">Læring</a></li>
+		
+				</ul>
+            </nav>
+	
+			
+		</div>
+	</div>
+	
+<!-- SIDEN -->	
+	<div class="col-1-1"><div class="content"><h1>Canvas brodering</h1></div></div>
+	<!--<div class="col-1-1 hide-on-mobile"><img src="../siderindhold/canvas/cover.jpg" alt="Cover billede med vase og billeder" class="cover"></div>-->
+	
+	<div class="col-1-2"><div class="content">
+		<h2>Idégenerering</h2>	
+		<p>Min idé til projektet startede med at det kunne være fedt at havde noget i hjemme, som viser hvor man har været. Jeg så at LEGO har et seværdighedssæt, over størstedelen af de seværdigheder som man ser. LEGOs sæt fylder dog meget og er dyrt. Så det levede ikke helt op til min idé.</p>
+		<p>Jeg fik derefter en idé fra Pinterest om at man kunne brodere seværdighederne, men ved at brodere dem ind i stof og indramme dem, kom jeg til at tænke på min bedstefars stue – det var heller ikke det jeg gik efter.</p>
+		<p>Senere så jeg en video på YouTube med en som limede ting fast på et lærred. Der kom jeg til at tænke på at der er et gitter på bagsiden, hvilket betød at jeg formendeligt ville kunne brodere på selve lærred. Og det kunne det!</p>
+	</div></div>
+	<div class="col-1-2"><div class="content">
+		<h2>Process</h2>
+		<ol>
+			<li>Find en silhuet af seværdigheden</li>
+			<li>Åben et Excel art og lav alle cellerne kvadratiske</li>
+			<li>Indsæt billedet og tegn det over</li>
+			<li>Tegn over på bagsiden af lærred</li>
+			<li>Prik huller med en lille nål</li>
+			<li>Broder seværdigheden</li>
+		</ol>
+	</div></div>
+	
+	<div class="col-1-1"><div class="content"><h2>Værker</h2></div></div>
+	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/eiffel.jpg" alt="Eiffeltårnet" onclick="openModal();currentSlide(1)" class="tilpasbilled"></div>
+	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/notredame.jpg" alt="Notredame" onclick="openModal();currentSlide(2)" class="tilpasbilled"></div>
+	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/louvre.jpg" alt="Louvre" onclick="openModal();currentSlide(3)" class="tilpasbilled"></div>
+	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/triumf.jpg" alt="Triumfbuen" onclick="openModal();currentSlide(4)" class="tilpasbilled"></div>
+	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/fjernsyn.jpg" alt="Fjernsynstårnet" onclick="openModal();currentSlide(5)" class="tilpasbilled"></div>
+	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/coittowet.jpg" alt="Coit tower" onclick="openModal();currentSlide(6)" class="tilpasbilled"></div>
+	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/bigben.jpg" alt="Big Ben" onclick="openModal();currentSlide(7)" class="tilpasbilled"></div>
+	<div class="col-1-4 mobile-col-1-2"><img src="../siderindhold/canvas/towerbridge.jpg" alt="Tower bridge" onclick="openModal();currentSlide(8)" class="tilpasbilled"></div>
+	
+	<div id="myModal" class="modal">
+			<div class="modal-content">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+
+			<div class="mySlides">
+				<img src="../siderindhold/canvas/eiffel.jpg" alt="Eiffeltårnet" class="billed_firkant">
+			</div>
+				
+			<div class="mySlides">
+				<img src="../siderindhold/canvas/notredame.jpg" alt="Notredame" class="billed_firkant">
+			</div>	
+				
+			<div class="mySlides">
+				<img src="../siderindhold/canvas/louvre.jpg" alt="Louvre" class="billed_firkant">
+			</div>	
+				
+			<div class="mySlides">
+				<img src="../siderindhold/canvas/triumf.jpg" alt="Triumfbuen" class="billed_firkant">
+			</div>	
+				
+			<div class="mySlides">
+				<img src="../siderindhold/canvas/fjernsyn.jpg" alt="Fjernsynstårnet" class="billed_firkant">
+			</div>		
+				
+			<div class="mySlides">
+				<img src="../siderindhold/canvas/coittowet.jpg" alt="Coit tower" class="billed_firkant">
+			</div>	
+			
+			<div class="mySlides">
+				<img src="../siderindhold/canvas/bigben.jpg" alt="Big Ben" class="billed_firkant">
+			</div>
+								
+			<div class="mySlides">
+				<img src="../siderindhold/canvas/towerbridge.jpg" alt="Tower bridge" class="billed_firkant">
+			</div>
+				
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+	</div>
+	
+<!-- FOOTER -->	
+  <div class="col-1-1 stylefooter hide-on-mobile">
+		<div class="col-11-12">
+			<div class="content">
+				<p class="tekstfooter">Kragesand© alle rettigheder er forbeholdt - Email: kimkragesand@hotmail.com</p>
+			</div>
+		</div>	
+
+		<div class="col-1-12">
+			<div class="content right">
+				<a href="https://www.instagram.com/kimkragesand/" target="_blank"><img src="../forside_billeder/instragram.png" alt="Instagram logo" class="socialemedie"/></a>
+				<a href="https://www.linkedin.com/in/kim-kragesand-bohn-549988131/" target="_blank"><img src="../forside_billeder/linkin.png" alt="Linkin logo" class="socialemedie"/></a>
+			</div>
+		</div>	
+	</div>
+	
+	<!--MOBIL-->	
+	<div class="mobile-col-1-1 hideondesktop mobil_midt">
+    	<div class="content">
+			<h3>Følg mig her</h3>
+    	</div>
+	</div>
+	<div class="mobile-1-1 mobil_midt">
+		<div class="mobile-col-1-4 hideondesktop">
+			<div class="content">
+				<a href="https://www.instagram.com/kimkragesand/" target="_blank"><img src="../forside_billeder/instragram.png" alt="Instagram logo" class="socialemedie_mobil"/></a>
+			</div>
+		</div>
+		
+		<div class="mobile-col-1-4 hideondesktop">
+			<div class="content">
+				<a href="https://www.linkedin.com/in/kim-kragesand-bohn-549988131/" target="_blank"><img src="../forside_billeder/linkin.png" alt="Linkin logo" class="socialemedie_mobil"/></a>
+			</div>
+		</div>
+	</div>
+
+</div> <!-- grid er slut -->
+	
+
+	
+	
+	
+<!-- SCRIPT -->
+	
+	<!-- BURGER MENUEN -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(document).ready(function(){
+			
+			$('.burger').click(function(){
+				$('ul').toggleClass('active');
+			})
+	
+		});
+		
+	</script>	
+	
+		<!-- BILLEDER VISES I FYLD STØRRELSE -->
+	<script>
+		function openModal() {
+		  document.getElementById('myModal').style.display = "block";
+		}
+
+		function closeModal() {
+		  document.getElementById('myModal').style.display = "none";
+		}
+
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  if (n > slides.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			  slides[i].style.display = "none";
+		  }
+			slides[slideIndex-1].style.display = "block";
+		}
+	</script>
+
+</body>
+</html>
